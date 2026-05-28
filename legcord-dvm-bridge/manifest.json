@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "id": "legcord-dvm-bridge",
+    "name": "Discord Volume Mixer Bridge",
+    "version": "1.0.1",
+    "description": "Local bridge for Stream Deck Discord Volume Mixer voice controls.",
+    "author": "dylanjkl",
+    "compatibleVersions": ["*"],
+    "main": "main.js",
+    "permissions": [],
+    "host_permissions": [
+        "ws://127.0.0.1:6888/*",
+        "http://127.0.0.1:6888/*",
+        "https://discord.com/*",
+        "https://*.discord.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://discord.com/*", "https://*.discord.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_start"
+        },
+        {
+            "matches": ["https://discord.com/*", "https://*.discord.com/*"],
+            "js": ["page.js"],
+            "run_at": "document_idle",
+            "world": "MAIN"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["page.js"],
+            "matches": ["https://discord.com/*", "https://*.discord.com/*"]
+        }
+    ]
+}
