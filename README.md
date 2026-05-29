@@ -1,4 +1,8 @@
+<div align="center">
+
 <img width="354" height="354" alt="dylanjklvolumemixericon" src="https://github.com/user-attachments/assets/81a31052-6399-4d87-be7f-3aaa5b70b5c7" />
+
+</div>
 
 # Discord Volume Mixer 3 (Stream Deck plugin)
 
