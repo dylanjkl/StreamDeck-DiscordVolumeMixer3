@@ -13,7 +13,6 @@ This is a plugin for Stream Deck for managing Discord Voice chats:
 * Requires Stream Deck 7.4 or newer on Windows 10 x64 or newer.
 
 <img width="355" height="266" alt="Screenshot 2026-05-29 004936" src="https://github.com/user-attachments/assets/243cc65a-6971-4cba-a500-33f2d55b3a1b" />
-![](etc/sshot2.png)
 
 ## Support
 
