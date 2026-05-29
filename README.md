@@ -104,6 +104,3 @@ This project is a fork of [Stream Deck Discord Volume Mixer 2](https://github.co
 * **[FynnleyNeko (Fynnley)](https://github.com/FynnleyNeko)** — contributor.
 
 * Big kudos to [Krabs](https://github.com/krabs-github) for helping with profiles for the XL version, testing, and overall being awesome.
-
-## TODO
-* Self status button
