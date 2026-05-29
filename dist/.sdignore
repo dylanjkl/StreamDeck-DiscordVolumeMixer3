@@ -1,0 +1,9 @@
+# Excluded from the packaged .streamDeckPlugin (sdignore uses .gitignore syntax,
+# relative to the plugin root). These ship in dist/bin/ but aren't needed:
+# bin.zip is a stray archive, and the OpenSSL 1.1 DLLs are unused because Qt 6.8
+# does TLS via Windows Schannel.
+bin/bin.zip
+bin/libssl-1_1-x64.dll
+bin/libcrypto-1_1-x64.dll
+bin/libeay32.dll
+bin/ssleay32.dll
